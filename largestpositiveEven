@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class largposeven
+{
+    public static void main(String args[])
+    {
+        int l=-1,n,i,r=0;
+        Scanner sc=new Scanner(System.in);
+        for(i=1; i<6; i++)
+        {
+            n=sc.nextInt();
+            if(n%2==0 && n>0)	{
+            	if(i==1){
+                	l=n;
+            	}
+            	else if(i>1){
+                	if(n>l){
+                   		 l=n;
+                    	}
+                }
+            }
+        }
+        System.out.print("largest pos even no.="+l);
+
+    }
+}
