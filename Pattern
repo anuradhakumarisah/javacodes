@@ -1,0 +1,20 @@
+public class NP14
+{
+	public static void main(String args[])
+	{
+		int i,j,k;
+		for(i=1;i<=5;i++){
+			for(j=1;j<=5;j++){
+				if(j>=i){
+					System.out.print(j);
+				}
+			
+			}
+			for(k=1;k<=5;k++){
+				if(k>=(6-i))
+				System.out.print("5");
+			}
+			System.out.println();
+		}
+	}
+}
